@@ -55,11 +55,62 @@ h3{
 p{ 
     font-size: 16px;
 }
-@media (min-width: 320px) and (max-width: 767px){
+@media (min-width: 414px) and (max-width: 767px){
+    body{
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    #nav-list{
+        font-size: 1em;
+    }
+    #navbar-toggle{
+        margin-right: 10px;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    p{ 
+        font-size: 14px;
+    }
     .col-xs-12{
         width: 90%;
         height: 100%;
         color: black;
-        margin: 10px auto 15px 30px;
+        margin: 10px auto 15px 13px;
+    }
+}
+@media (min-width: 320px) and (max-width: 414px){
+    body{
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 2em;
+    }
+    #nav-list{
+        font-size: 1em;
+    }
+    #navbar-toggle{
+        margin-right: 10px;
+    }
+    h2{
+        font-size: 2em;
+        margin-top: 85px;
+    }
+    h3{
+        font-size: 1em;
+    }
+    p{ 
+        font-size: 14px;
+    }
+    .col-xs-12{
+        width: 90%;
+        height: 100%;
+        color: black;
+        margin: 10px auto 15px 13px;
     }
 }
