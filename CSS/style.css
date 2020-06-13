@@ -89,7 +89,7 @@ p{
         padding-top: 50px;
     }
     h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #nav-list{
         font-size: 1em;
@@ -101,12 +101,7 @@ p{
         font-size: 2em;
         margin-top: 85px;
     }
-    h3{
-        font-size: 1em;
-    }
-    p{ 
-        font-size: 14px;
-    }
+
     .col-xs-12{
         width: 90%;
         height: 100%;
