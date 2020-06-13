@@ -116,7 +116,7 @@ p{
         margin: 10px auto 15px 13px;
     }
 }
-@media (min-width: 414px){
+@media (max-width: 414px){
     body{
         padding-top: 50px;
     }
